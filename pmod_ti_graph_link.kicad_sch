@@ -2017,7 +2017,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 102.87) (xy 133.35 81.28)
+			(xy 133.35 107.95) (xy 133.35 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2047,7 +2047,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 107.95) (xy 138.43 107.95)
+			(xy 137.16 113.03) (xy 138.43 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2067,7 +2067,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 83.82) (xy 130.81 105.41)
+			(xy 130.81 83.82) (xy 130.81 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2084,6 +2084,16 @@
 			(type default)
 		)
 		(uuid "3c7d004b-4746-4bcf-be98-ae08a931ae3b")
+	)
+	(wire
+		(pts
+			(xy 137.16 86.36) (xy 137.16 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d63c77f-1519-41be-9991-a6618d664d76")
 	)
 	(wire
 		(pts
@@ -2237,7 +2247,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 107.95) (xy 137.16 109.22)
+			(xy 137.16 113.03) (xy 137.16 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2284,6 +2294,16 @@
 			(type default)
 		)
 		(uuid "9c021b87-f10a-470e-ad18-9a15e237318a")
+	)
+	(wire
+		(pts
+			(xy 137.16 95.25) (xy 137.16 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cd2b408-8bf4-40b0-a17e-92eca8b2a4d8")
 	)
 	(wire
 		(pts
@@ -2367,7 +2387,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 102.87) (xy 138.43 102.87)
+			(xy 133.35 107.95) (xy 138.43 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2377,23 +2397,13 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 105.41) (xy 138.43 105.41)
+			(xy 130.81 110.49) (xy 138.43 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d5442488-d561-40ec-af5f-600a1a99d46e")
-	)
-	(wire
-		(pts
-			(xy 137.16 87.63) (xy 137.16 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da46c27d-adc0-4e22-b61a-fd3345032dda")
 	)
 	(wire
 		(pts
@@ -2554,7 +2564,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 137.16 109.22 0)
+		(at 137.16 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2562,7 +2572,7 @@
 		(dnp no)
 		(uuid "09086d54-1638-4880-8e95-63fd05629735")
 		(property "Reference" "#PWR06"
-			(at 137.16 115.57 0)
+			(at 137.16 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2571,7 +2581,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 137.16 113.538 0)
+			(at 137.16 118.618 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2579,7 +2589,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 109.22 0)
+			(at 137.16 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2588,7 +2598,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 109.22 0)
+			(at 137.16 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2597,7 +2607,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 137.16 109.22 0)
+			(at 137.16 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2612,6 +2622,76 @@
 			(project "pmod_ti_graph_link"
 				(path "/d64bf880-8167-432e-9a3f-0e567d00bae5"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 137.16 91.44 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0bcb0d5e-4577-4bab-85ef-b9ed188fce3e")
+		(property "Reference" "L3"
+			(at 138.43 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2.7"
+			(at 138.43 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric_Pad1.43x2.20mm_HandSolder"
+			(at 137.16 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 137.16 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "941fd344-48c0-4076-9b5c-211fd72072ed")
+		)
+		(pin "2"
+			(uuid "d8820175-796c-447a-8f07-78d14388e69c")
+		)
+		(instances
+			(project "pmod_ti_graph_link"
+				(path "/d64bf880-8167-432e-9a3f-0e567d00bae5"
+					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -2688,7 +2768,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 137.16 87.63 0)
+		(at 137.16 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2696,7 +2776,7 @@
 		(dnp no)
 		(uuid "2126419f-423f-4742-b3ad-7a6c51e474fe")
 		(property "Reference" "#PWR05"
-			(at 137.16 93.98 0)
+			(at 137.16 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2705,7 +2785,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 137.16 92.202 0)
+			(at 137.16 101.092 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2713,7 +2793,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 87.63 0)
+			(at 137.16 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2722,7 +2802,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 87.63 0)
+			(at 137.16 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2731,7 +2811,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 137.16 87.63 0)
+			(at 137.16 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2974,7 +3054,7 @@
 				)
 			)
 		)
-		(property "Value" "UMH4N"
+		(property "Value" "RN1911"
 			(at 106.68 100.076 90)
 			(effects
 				(font
@@ -3120,7 +3200,7 @@
 				)
 			)
 		)
-		(property "Value" "UMH4N"
+		(property "Value" "RN1911"
 			(at 106.426 71.628 90)
 			(effects
 				(font
@@ -3669,7 +3749,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 143.51 105.41 180)
+		(at 143.51 110.49 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3677,7 +3757,7 @@
 		(dnp no)
 		(uuid "e119b4b7-515f-476b-af49-a610e0c16ce6")
 		(property "Reference" "J3"
-			(at 141.478 98.806 0)
+			(at 141.478 103.886 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3686,7 +3766,7 @@
 			)
 		)
 		(property "Value" "Link Debug"
-			(at 141.478 101.092 0)
+			(at 141.478 106.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3695,7 +3775,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 143.51 105.41 0)
+			(at 143.51 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3704,7 +3784,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 143.51 105.41 0)
+			(at 143.51 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3713,7 +3793,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 143.51 105.41 0)
+			(at 143.51 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
