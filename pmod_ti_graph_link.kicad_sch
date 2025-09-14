@@ -2664,7 +2664,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_standard_nlv25-ef_en.pdf"
 			(at 137.16 91.44 0)
 			(effects
 				(font
@@ -2674,6 +2674,15 @@
 			)
 		)
 		(property "Description" "Inductor"
+			(at 137.16 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "445-16474-1-ND"
 			(at 137.16 91.44 0)
 			(effects
 				(font
@@ -2733,7 +2742,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
 			(at 115.57 114.3 0)
 			(effects
 				(font
@@ -2743,6 +2752,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 115.57 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "311-1140-1-ND"
 			(at 115.57 114.3 0)
 			(effects
 				(font
@@ -2866,7 +2884,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_standard_nlv25-ef_en.pdf"
 			(at 110.49 109.22 0)
 			(effects
 				(font
@@ -2877,6 +2895,15 @@
 		)
 		(property "Description" "Inductor"
 			(at 110.49 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "445-16474-1-ND"
+			(at 110.49 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2935,7 +2962,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 93.98 97.79 0)
 			(effects
 				(font
@@ -2945,6 +2972,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 93.98 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "13-RC0805JR-1310KLCT-ND"
 			(at 93.98 97.79 0)
 			(effects
 				(font
@@ -3004,7 +3040,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 93.98 69.85 0)
 			(effects
 				(font
@@ -3014,6 +3050,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 93.98 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "13-RC0805JR-1310KLCT-ND"
 			(at 93.98 69.85 0)
 			(effects
 				(font
@@ -3071,7 +3116,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/transistor/digital/emh3t2r-e.pdf"
+		(property "Datasheet" "https://toshiba.semicon-storage.com/info/RN1911_datasheet_ja_20210824.pdf?did=18827&prodName=RN1911"
 			(at 100.33 105.41 0)
 			(effects
 				(font
@@ -3082,6 +3127,15 @@
 		)
 		(property "Description" "0.1A Ic, 50V Vce, Dual NPN Input Resistor Transistors, SOT-363"
 			(at 100.33 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "RN1911LF(CTCT-ND"
+			(at 100.33 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3217,7 +3271,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/transistor/digital/emh3t2r-e.pdf"
+		(property "Datasheet" "https://toshiba.semicon-storage.com/info/RN1911_datasheet_ja_20210824.pdf?did=18827&prodName=RN1911"
 			(at 100.33 77.47 0)
 			(effects
 				(font
@@ -3228,6 +3282,15 @@
 		)
 		(property "Description" "0.1A Ic, 50V Vce, Dual NPN Input Resistor Transistors, SOT-363"
 			(at 100.33 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "RN1911LF(CTCT-ND"
+			(at 100.33 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3344,7 +3407,7 @@
 				)
 			)
 		)
-		(property "Value" "BAT54DW"
+		(property "Value" "BAT54DW_R1_00001"
 			(at 100.33 83.82 0)
 			(effects
 				(font
@@ -3361,7 +3424,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.panjit.com.tw/upload/datasheet/BAT54TW_SERIES.pdf"
 			(at 100.33 81.28 0)
 			(effects
 				(font
@@ -3370,7 +3433,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Schottky diode array 30V 200mA SOT363"
+			(at 100.33 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "3757-BAT54DW_R1_00001CT-ND"
 			(at 100.33 81.28 0)
 			(effects
 				(font
@@ -3417,7 +3489,7 @@
 				)
 			)
 		)
-		(property "Value" "BAT54DW"
+		(property "Value" "BAT54DW_R1_00001"
 			(at 100.33 111.76 0)
 			(effects
 				(font
@@ -3434,7 +3506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.panjit.com.tw/upload/datasheet/BAT54TW_SERIES.pdf"
 			(at 100.33 109.22 0)
 			(effects
 				(font
@@ -3443,7 +3515,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Schottky diode array 30V 200mA SOT363"
+			(at 100.33 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "3757-BAT54DW_R1_00001CT-ND"
 			(at 100.33 109.22 0)
 			(effects
 				(font
@@ -3509,7 +3590,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.kycon.com/Pub_Eng_Draw/STX-2500-3N.pdf"
 			(at 143.51 83.82 0)
 			(effects
 				(font
@@ -3519,6 +3600,15 @@
 			)
 		)
 		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 143.51 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "2092-STX-2500-3NTRCT-ND"
 			(at 143.51 83.82 0)
 			(effects
 				(font
@@ -3580,7 +3670,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_standard_nlv25-ef_en.pdf"
 			(at 110.49 81.28 0)
 			(effects
 				(font
@@ -3591,6 +3681,15 @@
 		)
 		(property "Description" "Inductor"
 			(at 110.49 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "445-16474-1-ND"
+			(at 110.49 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3649,7 +3748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
 			(at 115.57 86.36 0)
 			(effects
 				(font
@@ -3659,6 +3758,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 115.57 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "311-1140-1-ND"
 			(at 115.57 86.36 0)
 			(effects
 				(font
@@ -3783,7 +3891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://media.metz-connect.com/files/171/Data_sheet_PR202XXVBNN.PDF"
 			(at 143.51 110.49 0)
 			(effects
 				(font
@@ -3793,6 +3901,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 143.51 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "1849-1003-ND"
 			(at 143.51 110.49 0)
 			(effects
 				(font
@@ -3983,7 +4100,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://media.metz-connect.com/files/171/Data_sheet_PR202XXHBNN.PDF"
 			(at 63.5 92.71 0)
 			(effects
 				(font
@@ -3993,6 +4110,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 63.5 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "1849-PR20206HBNN-ND"
 			(at 63.5 92.71 0)
 			(effects
 				(font
